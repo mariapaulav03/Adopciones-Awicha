@@ -1,0 +1,13 @@
+html,body{
+    margin: 0;
+}
+.container_nav{
+    display: flex;
+}
+.containerlogo{
+    display: flex;
+}
+.containerlogo img{
+    width: 500px;
+    height: 500px;
+}
