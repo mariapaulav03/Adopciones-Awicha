@@ -7,11 +7,11 @@ html, body{
 /*.menu{
   background-image: url(../images/Background/nav.png);
 }*/
-#contenido{
+.head{
   height: 100%;
   width: 1000px;
-  /*background-image: url(../images/Background/nav.png);
-  background-size: 100%;*/
+  background-image: url(../images/Background/nav.png);
+  background-size: 100%;
 }
 .cabecera{
   margin-right: 40px;
@@ -32,18 +32,16 @@ html, body{
   padding: 10px;
   padding-bottom: 15px;
   margin: auto;
-   background-image: url(../images/Background/nav.png);
+  /* background-image: url(../images/Background/nav.png);*/
    /* background: #113835FF;*/
 }
 .menu li{
-   background-image: url(../images/Background/nav.png);
   max-width: 160px;
   width: 100%;
   text-align: center;
   display: inline-block;
 }
 .menu li>a{
-   background-image: url(../images/Background/nav.png);
   text-decoration: none;
  /* color: #ffffff;*/
 }
