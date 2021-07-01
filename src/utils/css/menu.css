@@ -1,3 +1,4 @@
+/*Fuentes*/
 @font-face{
 	font-family:"gangalin";
 	src:url("../fonts/Gagalin-Regular.woff") format("truetype");
@@ -193,17 +194,6 @@ nav{
 .menu > li:hover .submenu li:nth-child(odd){
   transform: skewX(-25deg) translateX(-15px);
 }
-
-/*Carrusel*/
-.container1{
-	background: url(../images/Background/background2.png);
-	background-size: cover;
-	padding: 30px;
-}
-.carousel-inner{
-	margin: auto;
-}
-
-.carousel-inner img{
-	border-radius: 10px;
+.diferente li{
+  color: white;
 }
