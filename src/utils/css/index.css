@@ -78,3 +78,32 @@ html, body{
       transform: rotateY(-360deg);
     }
   }
+.container2{
+  background: url(../images/Background/background4.png);
+  background-size: cover;
+  padding-bottom: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.img_Adop img{
+  width: 500px;
+  height: 300px;
+  margin-top: 180px;
+  border-radius: 50px;
+}
+.letra_Adop h1{
+  font-family: "gangalin";
+  font-size: 60px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 120px;
+  margin-right: 140px;
+}
+.letra_Adop h2{
+  font-family: "bebas";
+  font-size: 40px;
+  color: aliceblue;
+  text-align: center;
+  margin-right: 150px;
+}
