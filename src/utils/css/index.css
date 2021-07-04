@@ -120,6 +120,7 @@ html, body{
   color: beige;
   text-align: center;
   margin-top: 80px;
+  margin-left: 100px;
 }
 .img_Fund{
   display: grid;
