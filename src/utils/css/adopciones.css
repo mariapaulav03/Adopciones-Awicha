@@ -6,45 +6,73 @@ html, body{
 }
 
 /*primer ciuadro cuerpo*/
-.principal{
-  margin-top: -7%;
-  height: 50vh;
-  background-color: gray;
+.principal img{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
 }
  .h1{
   color: white;
-  background-color: #519E987B;
+  font-size: 33px;
   padding: 10px;
   padding-left: 30px;
   margin-left: 40%;
+  margin-bottom: 10%;
   margin-right: 40%;
-
+  margin-top: -38%;
 }
 .principal p{
-  color: #383838FF;
-  background-color: #519E987B;
-  padding: 25px;
-  margin-left: 30%;
-  margin-right: 30%;
+  font-size: 25px;
+  margin-left: 25%;
+  margin-right: 20%;
 }
 
 /*animales*/
 .conten{
   width: 100%; 
-  align-items: center;
-  height: 400vh;
+  align-items: center; 
 }
+.fondo_adpot img{
+  margin-top: 8.7%;
+  width: 49.8%;
+  height: 360px; 
+}
+.fondo_adpot2 img{
+  margin-top: 2%;
+  width: 49.8%;
+  height: 360px; 
+}
+.fondo_adpot3 img{
+  margin-top: 2%;
+  width: 49.8%;
+  height: 360px; 
+}
+.caja1{
+  margin-top: -30%;
+  display: flex;
+}
+.caja2 {
+  margin-top: -30%; 
+  display: flex;
+}
+.caja3 {
+  margin-top: -30%;
+  display: flex;
+}
+
 .conten figure{
-  position: relative;
-  
+  position: relative; 
   height: 250px;
   width: 350px;
   overflow: hidden;
   box-shadow: 0px 15px 25px rgba(0,0,0,.50);
   cursor: pointer;
 }
-.conten h3, h4;{
-  position: absolute;
+.caja1 h3, h4{
+  display: grid; 
+}
+.caja2 h4{
+
 }
 .conten figure img{
   height: 100%;
@@ -79,4 +107,7 @@ html, body{
   transition: all 500ms ease-out;
   margin-top: 30px;
   line-height: 1.5;
+}
+.pie_pagina{
+  margin-top: 2%;
 }
