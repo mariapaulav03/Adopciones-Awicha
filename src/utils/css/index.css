@@ -33,7 +33,7 @@ html, body{
   }
   .carousel {
     transform-style: preserve-3d;
-    animation: rotate360 180s infinite forwards linear;
+    animation: rotate360 120s infinite forwards linear;
   }
   .carousel__face {
     position: absolute;
@@ -78,3 +78,79 @@ html, body{
       transform: rotateY(-360deg);
     }
   }
+.container2{
+  background: url(../images/Background/background4.png);
+  background-size: cover;
+  padding-bottom: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.img_Adop img{
+  width: 500px;
+  height: 300px;
+  margin-top: 180px;
+  border-radius: 50px;
+}
+.letra_Adop h1{
+  font-family: "gangalin";
+  font-size: 60px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 120px;
+  margin-right: 140px;
+}
+.letra_Adop h2{
+  font-family: "bebas";
+  font-size: 40px;
+  color: beige;
+  text-align: center;
+  margin-right: 150px;
+}
+.container3{
+  background: url(../images/Background/background3.png);
+  background-size: cover;
+  padding: 30px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.titulo_fund{
+  font-family: "gangalin";
+  font-size: 300px;
+  color: beige;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.img_Fund{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.brenda img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 200px;
+}
+.ana img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 150px;
+}
+.brenda h2{
+  font-family: "bebas";
+  font-size: 30px;
+  margin-top: 30px;
+  color: beige;
+  text-align: center;
+}
+.ana h2{
+  font-family: "bebas";
+  font-size: 30px;
+  margin-top: 30px;
+  color: beige;
+  text-align: center;
+}

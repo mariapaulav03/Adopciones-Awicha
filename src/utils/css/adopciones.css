@@ -9,22 +9,22 @@ html, body{
 .principal img{
   background-repeat: no-repeat;
   width: 100%;
-  height: 450px;
+  height: 440px;
 }
  .h1{
   color: white;
   font-size: 33px;
-  padding: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
   margin-left: 40%;
   margin-bottom: 10%;
   margin-right: 40%;
   margin-top: -38%;
 }
 .principal p{
-  font-size: 25px;
-  margin-left: 25%;
-  margin-right: 20%;
+  font-size: 24px;
+  color: #404040FF;
+  margin-left: 18%;
+  margin-right: 16%;
 }
 
 /*animales BODY*/
@@ -33,51 +33,54 @@ html, body{
   align-items: center; 
 }
 .fondo_adpot img{
-  margin-top: 8.7%;
+  margin-top: 8.5%;
   width: 49.8%;
-  height: 360px; 
+  height: 400px; 
 }
 .fondo_adpot2 img{
-  margin-top: 2%;
+  margin-top: 1.1%;
   width: 49.8%;
-  height: 360px; 
+  height: 400px; 
 }
 .fondo_adpot3 img{
-  margin-top: 2%;
+  margin-top: 1.1%;
   width: 49.8%;
-  height: 360px; 
+  height: 400px; 
 }
 .caja1{
-  margin-top: -30%;
+  margin-top: -39%;
   display: flex;
 }
 .caja2 {
-  margin-top: -30%; 
+  margin-top: -39%;
   display: flex;
 }
 .caja3 {
-  margin-top: -30%;
+  margin-top: -39%;
   display: flex;
 }
+.info{
+  margin-top: 13%;
+  padding-left: 2%;
+}
+.info2{
+  margin-top: 11%;
+  padding-left: 2%;
+}
 
-.conten figure{
-  position: relative; 
-  height: 250px;
+/*transiciones del texto*/
+.conten figure{ 
+  position: relative;
+  height: 350px;
   width: 350px;
   overflow: hidden;
   box-shadow: 0px 15px 25px rgba(0,0,0,.50);
   cursor: pointer;
 }
-.caja1 h3, h4{
-  display: grid; 
-}
-.caja2 h4{
-
-}
 .conten figure img{
   height: 100%;
   width: 100%;
-  transition: all 500ms ease-out; 
+  transition: all 500ms ease-out;
 }
 .capa{
   position: absolute;
@@ -95,7 +98,7 @@ html, body{
   visibility: visible;    
 }
 .capa:hover p{
-  margin-top: 70px;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 .conten figure:hover > img{
@@ -105,9 +108,38 @@ html, body{
   color:#fff;
   font-weight: 400;
   transition: all 500ms ease-out;
-  margin-top: 30px;
-  line-height: 1.5;
+  line-height: 1.2;
+}
+.form{
+  background-color:  #F0960EFF;
+  margin-top: -6%;
+}
+button{
+  display: flex;
+  align-items: center;
+  margin-left: 41%;
+  margin-top: 7%;
+    
+}
+a {
+  text-decoration: none;
+}
+.btn{
+  background: #000;
+  color: white;
+  width: 200px;
+  height: 60px;
+  border-radius: 12px;
+  animation: escalar 1.5s infinite alternate;
+}
+@keyframes escalar{
+  to {
+    transform: scale(1);
+  }
+  from{
+    transform: scale(1.3);
+  }
 }
 .pie_pagina{
-  margin-top: 2%;
+  margin-top: 1%;
 }
