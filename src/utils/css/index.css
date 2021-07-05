@@ -33,7 +33,7 @@ html, body{
   }
   .carousel {
     transform-style: preserve-3d;
-    animation: rotate360 180s infinite forwards linear;
+    animation: rotate360 120s infinite forwards linear;
   }
   .carousel__face {
     position: absolute;
