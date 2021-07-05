@@ -1,0 +1,34 @@
+/*Fuentes*/
+@font-face{
+	font-family:"gangalin";
+	src:url("../fonts/Gagalin-Regular.woff") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family:"bebas";
+	src:url("../fonts/BebasNeue-Regular.woff") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+html, body{
+	margin: 0;
+	border:0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+/*Carrusel*/
+.carrusel{
+	background: url(../images/carrusel.png);
+	background-size: cover;
+	padding: 30px;
+}
+.carousel-inner{
+	margin: auto;
+}
+
+.carousel-inner img{
+	border-radius: 10px;
+}
