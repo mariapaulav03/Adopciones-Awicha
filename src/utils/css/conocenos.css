@@ -19,9 +19,129 @@ html, body{
 	list-style: none;
 	box-sizing: border-box;
 }
+/*Conoce awicha*/
+.cono_Aw{
+    background: url(../images/Background/background3.png);
+    background-size: cover;
+    padding: 40px;
+}
+.cono_Aw h1{
+    font-family:"gangalin";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.cono_Aw h2{
+    font-family:"bebas";
+    font-size: 25px;
+    color: #616060;
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+
+/*VISIÓN*/
+.visi_Aw{
+    background: url(../images/Background/background4.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+}
+.ima_Visa img{
+    width: 400px;
+    height: 250px;
+    margin-top: 150px;
+}
+.letra_Visi h1{
+    font-family:"gangalin";
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.letra_Visi h2{
+    font-family:"bebas";
+    font-size: 25px;
+    color: #616060;
+    margin-top: 30px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+/*Empezó*/
+.inic_Aw{
+    background: url(../images/Background/background3.png);
+    background-size: cover;
+    padding: 60px;
+}
+.inic_Aw h1{
+    font-family:"gangalin";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.inic_Aw h2{
+    font-family:"bebas";
+    font-size: 35px;
+    color: #616060;
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+
+/*Equipo*/
+.equipo_aw{
+    background: url(../images/Background/background5.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+  }
+
+  .tit_equi h1{
+    font-family:"gangalin";
+    font-size: 80px;
+    color: beige;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  .foto_Equi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .foto_Equi img{
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 150px;
+    height: 160px;
+    border-radius: 100px;
+    justify-content: center;
+  }
+  .nom_tes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .nom_tes h2{
+    font-family:"bebas";
+    font-size: 40px;
+    color: beige;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .info_Tes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .info_Tes img{
+    width: 100px;
+    height: 50px;
+    margin-left: 150px;
+  }
+
 /*Carrusel*/
 .carrusel{
-	background: url(../images/carrusel.png);
+	background: url(../images/Background/background2.png);
 	background-size: cover;
 	padding: 30px;
 }
@@ -30,5 +150,5 @@ html, body{
 }
 
 .carousel-inner img{
-	border-radius: 10px;
+	border-radius: 80px;
 }
