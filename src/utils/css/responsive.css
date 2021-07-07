@@ -1,0 +1,35 @@
+@media screen and (max-width: 400px){
+body, footer, menu li{
+	flex-direction: column;
+	max-width: 100%;
+	 font-size: 16px;
+}
+.caja, .caja1, .caja2{
+	/*height: 600px;*/
+	width: 100%;
+	flex-direction: column;
+    font-size: 16px;
+}
+.fondo_adpot img, .fondo_adpot1 img, .fondo_adpot2 img{	
+	max-height: 600px;
+	max-width: 100%;
+	display: block;
+}
+}
+@media screen and (min-width: 401px) and (max-width: 900px){
+.contenedor1{
+	
+}
+.contenedor2{
+	
+}
+}
+@media screen and (min-width: 901px){
+.contenedor1{
+	
+	
+}
+.contenedor2{
+	
+}
+}

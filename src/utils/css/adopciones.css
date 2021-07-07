@@ -184,6 +184,7 @@ nav{
   height: 440px;
 }
  .h1{
+  font-family: "gangalin";
   color: white;
   font-size: 33px;
   padding-left: 20px;
@@ -232,19 +233,24 @@ nav{
   display: flex;
 }
 .info{
-  margin-top: 13%;
-  padding-left: 2%;
+  margin-top: 10%;
+
 }
 .info2{
-  margin-top: 11%;
+  margin-top: 8%;
   padding-left: 2%;
+ 
+}
+.info a, .info1 a, .info2 a{
+  font-size: 20px;
+  padding: 6%;
 }
 
 /*transiciones del texto*/
 .conten figure{ 
   position: relative;
   height: 350px;
-  width: 350px;
+  width: 300px;
   overflow: hidden;
   box-shadow: 0px 15px 25px rgba(0,0,0,.50);
   cursor: pointer;
@@ -283,7 +289,7 @@ nav{
   line-height: 1.2;
 }
 .form{
-  background-color:  #F0960EFF;
+  background-color:  #DBAD14FF;
   margin-top: -6%;
 }
 button{
@@ -313,7 +319,7 @@ a {
   }
 }
 .pie_pagina{
-  margin-top: 1%;
+  margin-top: 0.4%;
 }
 
 /*Pie de pagina*/
@@ -329,7 +335,6 @@ a {
 .pie_pagiana{
   background: url(../images/Background/backgroundfooter.png);
   background-size: cover;
-  padding: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
