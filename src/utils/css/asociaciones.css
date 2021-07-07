@@ -1,0 +1,100 @@
+/*Fuentes*/
+@font-face{
+	font-family:"gangalin";
+	src:url("../fonts/Gagalin-Regular.woff") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family:"bebas";
+	src:url("../fonts/BebasNeue-Regular.woff") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+html, body{
+	margin: 0;
+	border:0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+/*Asociaciones*/
+.aso_Aw{
+    background: url(../images/Background/background3.png);
+    background-size: cover;
+    padding: 40px;
+}
+.aso_Aw h1{
+    font-family:"gangalin";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+.aso_Aw h2{
+    font-family:"bebas";
+    font-size: 25px;
+    color: #616060;
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+/*Comida y planeta*/
+.co_Aw{
+    background: url(../images/Background/background4.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+}
+.ima_co img{
+    width: 300px;
+    height: 250px;
+    margin-top: 150px;
+}
+.letra_co h1{
+    font-family:"gangalin";
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.letra_co h2{
+    font-family:"bebas";
+    font-size: 25px;
+    color: #616060;
+    margin-top: 30px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+/*Veterinaria-Estatica*/
+.vet_Aw{
+    background: url(../images/Background/background\ dona1.png);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+}
+.ima_Vet img{
+    width: 300px;
+    height: 250px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.letra_Vet h1{
+    font-family:"gangalin";
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.letra_Vet h2{
+    font-family:"bebas";
+    font-size: 25px;
+    color: #616060;
+    margin-left: 100px;
+    margin-top: 30px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
