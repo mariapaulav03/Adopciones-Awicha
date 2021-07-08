@@ -11,6 +11,69 @@
   font-style: normal;
   font-weight: normal;
 }
+
+html, body{
+  cursor: url(../images/huella.png), auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; 
+}
+
+
+/*Encabezado*/
+header{
+  display: grid;
+  background: url(../images/Background/header.PNG);
+  grid-template-columns: 1fr 1fr ;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+}
+.containerlogo img{
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  margin-left: 200px;
+}
+.containerletra h1{
+  font-family: "gangalin";
+  font-size: 100px;
+  color: white;
+  margin-top: -0.1%;
+  margin-left: 170px;
+}
+.containerletter h3{
+  font-family: "bebas";
+  font-size: 30px;
+  color: white; 
+  margin-top: -18%;
+  margin-left: 174px;
+}
+
+/*Menú*/
+nav{
+  background: url(../images/Background/nav.png);
+  background-size: cover;
+  padding: 10px;
+}
+.aw:before,
+.aw:after {
+  content: " ";
+  display: table;
+}
+.aw:after {
+  clear: both;
+}
+.aw {
+  *zoom: 1;
+}
+
+/* Menú reseteado*/
+.menu,
+.submenu_aw{}
 html, body{
   cursor: url(../images/huella.png), auto;
   box-sizing: border-box;
@@ -59,22 +122,22 @@ html, body{
   color: white;
   text-align: center;
 }
-.info h2{
+.info ul{
   font-family:"bebas";
-    font-size: 40px;
-    color: #616060;
-    text-align: center;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-top:100px;
-    margin-left: 150px;
+  font-size: 40px;
+  color: #616060;
+  text-align: center;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top:100px;
+  margin-left: 150px;
 }
 .info a{
   text-decoration: none;
   font-family:"bebas";
-    font-size: 30px;
-    color: #6cb9ec;
-    margin-left: 150px;
+  font-size: 30px;
+  color: #00137F;
+  margin-left: 150px;
 }
 .img_Info img{
   width: 400px;
@@ -99,7 +162,7 @@ html, body{
   text-align: center;
   margin-right: 100px;
 }
-.info2 h2{
+.info2 ul{
     font-family:"bebas";
     font-size: 40px;
     color: #616060;
@@ -113,7 +176,7 @@ html, body{
   text-decoration: none;
   font-family:"bebas";
     font-size: 30px;
-    color: #6cb9ec;
+    color: #00137F;
     margin-right: 50px;
 }
 .img_Info2 img{
@@ -121,6 +184,26 @@ html, body{
   height: 300px;
 }
 
+/*animales BODY*/
+.conten{
+  width: 100%; 
+  align-items: center; 
+}
+.caja1{
+  margin-top: -39%;
+  display: flex;
+}
+.caja2 {
+  margin-top: -39%;
+  display: flex;
+}
+.info{
+  margin-top: 10%;
+}
+.info2{
+  margin-top: 8%;
+  padding-left: 2%;
+}
 
 .info a, .info1 a, .info2 a{
   font-size: 20px;
@@ -130,6 +213,8 @@ html, body{
 /*transiciones del texto*/
 .container figure{
   position: relative;
+  height: 350px;
+  width: 250px;
   overflow: hidden;
   width: 400px;
   height: 300px;

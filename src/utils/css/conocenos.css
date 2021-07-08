@@ -13,7 +13,11 @@
 }
 
 html, body{
+<<<<<<< HEAD
+    cursor: url(../images/huella.png), auto;
+=======
   cursor: url(../images/huella.png), auto;
+>>>>>>> remotes/origin/maria
 	margin: 0;
 	border:0;
 	padding: 0;

@@ -1,35 +1,47 @@
 @media screen and (max-width: 400px){
 body, footer, menu li{
-	flex-direction: column;
-	max-width: 100%;
-	 font-size: 16px;
+    flex-wrap: wrap; 
+	max-width: 250px;
+	margin: 0px;
+	align-items: center;
+}
+.head, .adopt, footer{
+  flex-wrap: wrap;
+  min-width: 250px;
+  white-space: 100%;
 }
 .caja, .caja1, .caja2{
-	/*height: 600px;*/
-	width: 100%;
-	flex-direction: column;
+	min-width: 250px;
+	flex-wrap: wrap;
     font-size: 16px;
+    margin-bottom: 0px;
+    margin: 0px;
 }
 .fondo_adpot img, .fondo_adpot1 img, .fondo_adpot2 img{	
-	max-height: 600px;
-	max-width: 100%;
+	width: 80px;
+	height: 80px;
 	display: block;
+	margin-bottom: 0px;
+	margin: 0px;
 }
 }
 @media screen and (min-width: 401px) and (max-width: 900px){
-.contenedor1{
-	
+body, html{
+   	
 }
-.contenedor2{
-	
+.fondo_adpot img, .fondo_adpot1 img, .fondo_adpot2 img{	
+	margin-bottom: 0px;
+	margin: 0px;
+	width: auto;
+}
+.head, .adopt, footer{
+  width: auto;
 }
 }
 @media screen and (min-width: 901px){
-.contenedor1{
-	
-	
-}
-.contenedor2{
-	
+body, html{
+  	width: auto;
+  	margin: 0;
+  	padding: 0;
 }
 }
