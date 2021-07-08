@@ -143,12 +143,55 @@ html, body{
 .carrusel{
 	background: url(../images/Background/background2.png);
 	background-size: cover;
-	padding: 30px;
+	padding-bottom: 600px;
 }
-.carousel-inner{
-	margin: auto;
-}
+.container {
+    position:relative;
+    width: 320px;
+    perspective: 4000px;
+  }
+  .carousel {
+    transform-style: preserve-3d;
+    animation: rotate360 120s infinite forwards linear;
+  }
+  .carousel__face {
+    position: absolute;
+    margin-top: 200px;
+    width: 450px;
+    height: 250px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+  }
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
 
-.carousel-inner img{
-	border-radius: 80px;
-}
+  .carousel__face:nth-child(1) {
+      background-image: url(../images/Conoceme/Awicha\ 3.png);
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) {
+    background-image: url(../images/Conoceme/Awicha\ 2.png);
+      transform: rotateY( 60deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url(../images/Conoceme/Awicha\ 4.png);
+    transform: rotateY( 120deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url(../images/Conoceme/Awicha\ 5.png);
+    transform: rotateY(180deg) translateZ(430px); }
+  .carousel__face:nth-child(5) {
+    background-image: url(../images/Conoceme/Awicha\ 6.png);
+   transform: rotateY(240deg) translateZ(430px); }
+   .carousel__face:nth-child(6) {
+    background-image: url(../images/Conoceme/Awicha\ 7.png);
+   transform: rotateY(300deg) translateZ(430px); }
+   @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../utils/css/menu.css">
     <link rel="stylesheet" href="../../utils/css/index.css">
     <link rel="stylesheet" type="text/css" href="../../utils/css/footer.css">
+    <script type="text/javascript" src="../../utils/js/index.js"></script>
     <title>Awicha</title>
 </head>
 <body>
@@ -101,10 +102,46 @@
                         <h2>Kuzco</h2>
                         <h2>Fiona</h2>
                     </div>
+<!--Modal-->
                     <div class="info_Tes">
-                        <img src="../../utils/images/index/Hueso.png" alt="hueso">
-                        <img src="../../utils/images/index/Hueso.png" alt="hueso">
-                        <img src="../../utils/images/index/Hueso.png" alt="hueso">
+                          <button class="btn" id="btn">
+                              <img src="../../utils/images/index/Hueso.png" alt="hueso">
+                          </button>
+                          <button class="btn" id="btn" data-open="modal1">
+                            <img src="../../utils/images/index/Hueso.png" alt="hueso">
+                        </button>
+                        <button class="btn" id="btn" data-open="modal1">
+                            <img src="../../utils/images/index/Hueso.png" alt="hueso">
+                        </button>
+
+
+
+
+
+
+                        <div class="cajac col-sm-12 col-lg-4">
+                            <img src="images/ninojugando.jpg" class="img-fluid"><br><br>
+                          <div>
+                               <a href="" data-bs-toggle="modal" data-bs-target="#elegirnos">
+                                   <button class="btn" id="btn">
+                                    <img src="../../utils/images/index/Hueso.png" alt="hueso">
+                                     </button></a>
+                           </div>
+                        </div>
+    
+                        <div class="cajac col-sm-12 col-lg-4">
+                            <img src="images/hermanos.jpg" class="img-fluid"><br><br>
+                            <div>
+                              <a href="" data-bs-toggle="modal" data-bs-target="#funcionamos">¿Cómo Funcionamos?</a>
+                             </div>
+                        </div>
+    
+                       <div class="cajac col-sm-12 col-lg-4">
+                           <img src="images/ninera.jpg" class="img-fluid"><br><br>
+                           <div>
+                               <a href="" data-bs-toggle="modal" data-bs-target="#nineras">Nuestras Niñeras</a>
+                        </div>
+                       </div>
                     </div>
             </section>
 <!--Footer-->
@@ -133,5 +170,103 @@
             </div>
         </div>
     </div>
+
+<!--Modales-->
+
+            <div class="modal" tabindex="-1" id="elegirnos">
+                <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 funcionamos">
+                                        <h2> ¿Por qué elegirnos?</h2><br>
+                                        <p>En el mundo actual, debido a que los padres tenemos fuertes cargas laborales, es necesario poder encomendar el cuidado de nuestros hijos a personas responsables, confiables, capacitadas y honestas.<br><br>  
+                                        En <span class="wuagua">Wuagua</span> trabajamos para poder darte la seguridad y tranquilidad que tus hijos están en buenas manos.  Nos adaptamos a tus horarios y necesidades, no solo en el cuidado de tus hijos si no en diferentes actividades del hogar que te permiten, al llegar a tu casa compartir y estar realmente con ellos.
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary2" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="modal" tabindex="-1" id="funcionamos">
+                <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 funcionamos">
+                                        <h2> ¿Como funcionamos?</h2><br>
+                                        <p>Nuestra plataforma <span class="wuagua">Wuagua</span> esta orientada para que encuentres los que buscas: </p> 
+                                            <ul>   
+                                                <li><i class="fas fa-baby"></i>  Prestamos servicio básico de cuidado temporal de niños, por horas. Desde 3 horas en adelante.</li><br>
+                                                <li><i class="fas fa-child"></i>  Prestamos servicio básico de cuidado permanente.  Medio tiempo o tiempo completo según su necesidad.</li><br>
+                                                <li>Adicional si la persona lo requiere prestamos servicio de:<br><br>
+                                                    <ul>
+                                                        <li><i class="fas fa-paw"></i> Cuidado de mascotas</li>
+                                                        <li><i class="fas fa-mortar-pestle"></i> Cocina</li>
+                                                        <li><i class="fas fa-hand-sparkles"></i> Tareas del hogar</li>
+                                                        <li><i class="fas fa-spell-check"></i> Asesoría de tareas</li>
+                                                    </ul>
+                                            </ul><br>
+                                        <p>Si estas interesado en conocernos debes hacer un registro inicial para acceder.<br><br>  
+                                        Si deseas aplicar a uno de nuestros servicios debes hacer un registro adicional para tener acceso completo a la plataforma.<br><br>
+                                        Si eres niñera y estas interesado en trabajar con nosotros debes diligenciar nuestro formulario para la prestación de servicios.<br><br>
+
+                                        Directamente los padres elijen la niñera que quieren contratar y que se ajusta a sus necesidades, y acuerdan con ella la prestación y pago de los servicios.<br><br>
+
+                                        Todos los pagos se realizan a través de la plataforma. 
+                                        </p>
+                                    </div>
+                                </div> 
+                        </div>
+                        </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary2" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="modal" tabindex="-1" id="nineras">
+                <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-12 funcionamos">
+                                        <h2> ¿Nuestras niñeras?</h2>
+                                        <p>En <span class="wuagua">Wuagua</span> contamos con personal calificado, en actualización permanente, idóneo para la prestación de los servicios.<br><br>
+                                        Nuestro personal cuenta con certificado de atención a la primera infancia.<br><br>
+                                        Todas nuestras niñeras son seleccionadas cuidadosamente. Deben cumplir con los parámetros de selección y cuentan con cualidades como paciencia, respeto, honestidad, puntualidad, trato adecuado y cariñoso con los niños, proactivas.<br><br>
+                                        Nuestras niñeras cuentan con experiencia verificable.<br><br>
+                                        Contamos con verificación de seguridad para la tranquilidad de los padres. </p> 
+                                    </div>
+                                </div> 
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary2" data-bs-dismiss="modal">Close</button>
+                    <a href="conocenineras.html" role="button" class="btn btn-secondary2">Conoce las niñeras</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            </div>		
+            </div>
+            </div>
 </body>
 </html>
