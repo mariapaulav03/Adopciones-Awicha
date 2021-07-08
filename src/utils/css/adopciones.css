@@ -20,11 +20,6 @@ html, body{
   flex-wrap: wrap; 
 }
 
-/*responsive*/
-.head, .adopt, footer{
-  flex-wrap: wrap;
-  min-width: 250px;
-}
 
 /*Encabezado*/
 header{
