@@ -1,0 +1,368 @@
+html, body{
+  cursor: url(../images/huella.png), auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}/*Fuentes*/
+@font-face{
+  font-family:"gangalin";
+  src:url("../fonts/Gagalin-Regular.woff") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family:"bebas";
+  src:url("../fonts/BebasNeue-Regular.woff") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*Encabezado*/
+header{
+  display: grid;
+  background: url(../images/Background/header.PNG);
+  grid-template-columns: 1fr 1fr ;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+}
+.containerlogo img{
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  margin-left: 200px;
+}
+.containerletra h1{
+  font-family: "gangalin";
+  font-size: 100px;
+  color: white;
+  margin-top: -0.2%;
+  margin-left: 170px;
+}
+.containerletter h3{
+  font-family: "bebas";
+  font-size: 30px;
+  color: white; 
+  margin-top: -18%;
+  margin-left: 174px;
+}
+/*Menú*/
+nav{
+  background: url(../images/Background/nav.png);
+  background-size: cover;
+  padding: 10px;
+}
+.aw:before,
+.aw:after {
+  content: " ";
+  display: table;
+}
+.aw:after {
+  clear: both;
+}
+.aw {
+  *zoom: 1;
+}
+
+/* Menú reseteado*/
+.menu,
+.submenu_aw{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu {
+  margin: 50px auto;
+  width: 800px;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+.menu > li {
+  background: #A8DADC;
+  float: left;
+  position: relative;
+  transform: skewX(25deg);
+}
+
+.menu a {
+  display: block;
+  color: #737373;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "bebas";
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.menu li:hover {
+  background: #F2CC59;
+}
+.menu > li > a {
+  transform: skewX(-25deg);
+  padding: 1em 2em;
+}
+
+/* Submenu*/
+.submenu{
+  position: absolute;
+  width: 200px;
+  left: 50%; margin-left: -100px;
+  transform: skewX(-25deg);
+  transform-origin: left top;
+}
+.submenu li {
+  background-color: #A8DADC;
+  position: relative;
+  overflow: hidden;
+}
+.submenu > li > a {
+  padding: 1em 2em;
+}
+.submenu > li::after {
+  content: '';
+  position: absolute;
+  top: -125%;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .9);
+}
+
+/* Odd stuff */
+.submenu > li:nth-child(odd){
+  transform: skewX(-25deg) translateX(0);
+}
+.submenu > li:nth-child(odd) > a {
+  transform: skewX(25deg);
+}
+.submenu > li:nth-child(odd)::after {
+  right: -50%;
+  transform: skewX(-25deg) rotate(3deg);
+}
+
+/* Even stuff */
+.submenu > li:nth-child(even){
+  transform: skewX(25deg) translateX(0);
+}
+.submenu > li:nth-child(even) > a {
+  transform: skewX(-25deg);
+}
+.submenu > li:nth-child(even)::after {
+  left: -50%;
+  transform: skewX(25deg) rotate(3deg);
+}
+/* Show dropdown */
+.submenu,
+.submenu li {
+  opacity: 0;
+  visibility: hidden;
+}
+.submenu li {
+  transition: .2s ease transform;
+}
+.menu > li:hover .submenu,
+.menu > li:hover .submenu li {
+  opacity: 1;
+  visibility: visible;
+}
+.menu > li:hover .submenu li:nth-child(even){
+  transform: skewX(25deg) translateX(15px);
+}
+.menu > li:hover .submenu li:nth-child(odd){
+  transform: skewX(-25deg) translateX(-15px);
+}
+
+/*primer ciuadro cuerpo*/
+.principal img{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+}
+ .h1{
+  font-family: "gangalin";
+  color: white;
+  font-size: 33px;
+  margin-left: 40%;
+  margin-bottom: 7.7%;
+  margin-right: 40%;
+  margin-top: -38%;
+}
+.principal p{
+  font-size: 25px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+.dona .font{
+  margin-top: 9.9%;
+  width: 49.8%;
+  height: 350px; 
+} 
+.front img{
+  width: 220px;
+  margin-top: -35%;
+  margin-bottom: 35%;
+  display: block;
+}
+.front2 img{
+  width: 220px;
+  margin-top: -35%;
+  margin-bottom: 35%;
+  display: block;
+}
+.front2{
+margin-left: 76%;
+margin-top: -66%;
+}
+.title{
+  font-family:"bebas";
+  padding: 25px;
+  margin-top: -30%;
+  margin-left: 20%;
+  font-size: 26px;
+  color: white;
+}
+.title1{
+  font-family:"bebas";
+  padding: 25px;
+  margin-top: -20%;
+  margin-left: 59%;
+  font-size: 26px;
+  color: white;
+}
+.adopt2{
+  margin-top: 5.5%;
+}
+.principal0{
+  margin-bottom: 13%;
+}
+.principal0 img{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+}
+ .h{
+  font-family: "gangalin";
+  color: white;
+  font-size: 33px;
+  margin-left: 34%;
+  margin-bottom: 10%;
+  margin-top: -38%;
+}
+.principal0 p{
+  font-size: 25px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.principal1{
+  margin-bottom: 13%;
+  margin-top: -2.7%;
+}
+.principal1 img{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+}
+.h2{
+  font-family: "gangalin";
+  color: white;
+  font-size: 33px;
+  margin-left: 38%;
+  margin-bottom: 10%;
+  margin-top: -38%;
+}
+.principal1 p{
+  font-size: 25px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.principal2{
+  margin-bottom: 13%;
+}
+.principal2 img{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+}
+ .h3{
+  font-family: "gangalin";
+  color: white;
+  font-size: 33px;
+  margin-left: 31%;
+  margin-bottom: 10%;
+  margin-top: -38%;
+}
+.principal2 p{
+  font-size: 25px;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+/*Fuentes*/
+@font-face{
+  font-family:"gangalin";
+  src:url("../fonts/Gagalin-Regular.woff") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family:"bebas";
+  src:url("../fonts/BebasNeue-Regular.woff") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*Pie de pagina*/
+.contFot{
+    margin-left: 10%;
+}
+.pie_pagiana{
+  background: url(../images/Background/backgroundfooter.png);
+  background-size: cover;
+  width: 100%;
+   height: 330px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+/*iconos*/
+.icon img {
+  margin-top: 12%;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+/*@awicha*/
+.contFot2 img{
+  width: 500px;
+  height: 250px;
+  margin-top: 10%;
+}
+/*hashtag*/
+.contFot h1{
+  color: white;
+  padding-top: 8%;
+  margin-left: 10%;
+  font-family:"bebas";
+  letter-spacing: 8px;
+}
+
+/*Footer*/
+.fotr{
+  background: url(../images/Background/backgroundfooter2.png);
+  background-size: cover;
+  padding: 40px;
+}
+.fotr h3{
+  color: white;
+  font-family:"bebas";
+  letter-spacing: 5px;
+  margin-left: 35%;
+  margin-top:20px;
+}
