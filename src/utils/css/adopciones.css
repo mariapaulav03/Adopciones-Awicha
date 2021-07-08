@@ -73,133 +73,115 @@ nav{
 
 /* Menú reseteado*/
 .menu,
-.submenu_aw{
+.submenu_aw{}
+html, body{
+  cursor: url(../images/huella.png), auto;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  list-style: none;
-}
-
-.menu {
-  margin: 50px auto;
-  width: 800px;
-  width: -moz-fit-content;
-  width: -webkit-fit-content;
-  width: fit-content;
-}
-.menu > li {
-  background: #A8DADC;
-  float: left;
-  position: relative;
-  transform: skewX(25deg);
-}
-
-.menu a {
-  display: block;
-  color: #737373;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: "bebas";
-  font-size: 20px;
-  letter-spacing: 3px;
-}
-.menu li:hover {
-  background: #F2CC59;
-}
-.menu > li > a {
-  transform: skewX(-25deg);
-  padding: 1em 2em;
-}
-
-/* Submenu*/
-.submenu{
-  position: absolute;
-  width: 200px;
-  left: 50%; margin-left: -100px;
-  transform: skewX(-25deg);
-  transform-origin: left top;
-}
-.submenu li {
-  background-color: #A8DADC;
-  position: relative;
-  overflow: hidden;
-}
-.submenu > li > a {
-  padding: 1em 2em;
-}
-.submenu > li::after {
-  content: '';
-  position: absolute;
-  top: -125%;
-  height: 100%;
-  width: 100%;
-  box-shadow: 0 0 50px rgba(0, 0, 0, .9);
-}
-
-/* Odd stuff */
-.submenu > li:nth-child(odd){
-  transform: skewX(-25deg) translateX(0);
-}
-.submenu > li:nth-child(odd) > a {
-  transform: skewX(25deg);
-}
-.submenu > li:nth-child(odd)::after {
-  right: -50%;
-  transform: skewX(-25deg) rotate(3deg);
-}
-
-/* Even stuff */
-.submenu > li:nth-child(even){
-  transform: skewX(25deg) translateX(0);
-}
-.submenu > li:nth-child(even) > a {
-  transform: skewX(-25deg);
-}
-.submenu > li:nth-child(even)::after {
-  left: -50%;
-  transform: skewX(25deg) rotate(3deg);
-}
-/* Show dropdown */
-.submenu,
-.submenu li {
-  opacity: 0;
-  visibility: hidden;
-}
-.submenu li {
-  transition: .2s ease transform;
-}
-.menu > li:hover .submenu,
-.menu > li:hover .submenu li {
-  opacity: 1;
-  visibility: visible;
-}
-.menu > li:hover .submenu li:nth-child(even){
-  transform: skewX(25deg) translateX(15px);
-}
-.menu > li:hover .submenu li:nth-child(odd){
-  transform: skewX(-25deg) translateX(-15px);
+  text-align: none;
 }
 
 /*primer ciuadro cuerpo*/
-.principal img{
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 440px;
+.principal{
+  background: url(../images/Background/background\ dona2.png);
+  background-size: cover;
+  padding: 40px;
 }
- .h1{
-  font-family: "gangalin";
-  color: white;
-  font-size: 33px;
-  padding-left: 20px;
-  margin-left: 40%;
-  margin-bottom: 10%;
-  margin-right: 40%;
-  margin-top: -38%;
+ .principal h1{
+  font-family:"gangalin";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
 }
 .principal p{
-  font-size: 24px;
-  color: #404040FF;
-  margin-left: 18%;
-  margin-right: 16%;
+  font-family:"bebas";
+    font-size: 25px;
+    color: #616060;
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+
+/*Container1*/
+/*Letra e imagen1*/
+.caja1{
+  background: url(../images/Background/background-adop1.png);
+  background-size: cover;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.info{
+  margin-top: 10%;
+}
+.info h1{
+  font-family:"gangalin";
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+.info ul{
+  font-family:"bebas";
+  font-size: 40px;
+  color: #616060;
+  text-align: center;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top:100px;
+  margin-left: 150px;
+}
+.info a{
+  text-decoration: none;
+  font-family:"bebas";
+  font-size: 30px;
+  color: #00137F;
+  margin-left: 150px;
+}
+.img_Info img{
+  width: 400px;
+  height: 300px;
+}
+
+/*Imagenes y letras2*/
+.caja2{
+  background: url(../images/Background/background-adop2.png);
+  background-size: cover;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.info2{
+  margin-top: 10%;
+}
+.info2 h1{
+  font-family:"gangalin";
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  margin-right: 100px;
+}
+.info2 ul{
+    font-family:"bebas";
+    font-size: 40px;
+    color: #616060;
+    text-align: center;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top:100px;
+    margin-right: 200px;
+}
+.info2 a{
+  text-decoration: none;
+  font-family:"bebas";
+    font-size: 30px;
+    color: #00137F;
+    margin-right: 50px;
+}
+.img_Info2 img{
+  width: 400px;
+  height: 300px;
 }
 
 /*animales BODY*/
@@ -207,30 +189,11 @@ nav{
   width: 100%; 
   align-items: center; 
 }
-.fondo_adpot img{
-  margin-top: 8.5%;
-  width: 49.8%;
-  height: 400px; 
-}
-.fondo_adpot2 img{
-  margin-top: 1.1%;
-  width: 49.8%;
-  height: 400px; 
-}
-.fondo_adpot3 img{
-  margin-top: 1.1%;
-  width: 49.8%;
-  height: 400px; 
-}
 .caja1{
   margin-top: -39%;
   display: flex;
 }
 .caja2 {
-  margin-top: -39%;
-  display: flex;
-}
-.caja3 {
   margin-top: -39%;
   display: flex;
 }
@@ -241,21 +204,26 @@ nav{
   margin-top: 8%;
   padding-left: 2%;
 }
+
 .info a, .info1 a, .info2 a{
   font-size: 20px;
   padding: 6%;
 }
 
 /*transiciones del texto*/
-.conten figure{ 
+.container figure{
   position: relative;
   height: 350px;
   width: 250px;
   overflow: hidden;
+  width: 400px;
+  height: 300px;
   box-shadow: 0px 15px 25px rgba(0,0,0,.50);
   cursor: pointer;
+  margin-top: 150px;
+  margin-left: 200px;
 }
-.conten figure img{
+ figure img{
   height: 100%;
   width: 100%;
   transition: all 500ms ease-out;
@@ -267,27 +235,33 @@ nav{
   width: 100%;
   background: rgba(0, 0, 0, .8);
   transition: all 500ms ease-out;
-  opacity: 0; 
+  opacity: 0;
   visibility: hidden;
-  text-align: center;
 }
-.conten figure:hover > .capa{
-  opacity: 1;
-  visibility: visible;    
-}
-.capa:hover p{
-  margin-top: 30px;
-  margin-bottom: 15px;
-}
-.conten figure:hover > img{
-  transform: scale(1.3);
-}
-.capa p{
+.container  p{
   color:#fff;
   font-weight: 400;
   transition: all 500ms ease-out;
   line-height: 1.2;
+  font-family:"bebas";
+  font-size: 18px;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
 }
+
+
+.container figure:hover > .capa{
+  opacity: 1;
+  visibility: visible;
+}
+.container :hover p{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.container  figure:hover > img{
+  transform: scale(1.3);
+}
+
 .form{
   background-color:  #DBAD14FF;
   margin-top: -6%;
@@ -297,11 +271,8 @@ button{
   align-items: center;
   margin-left: 41%;
   margin-top: 7%;
-    
 }
-a {
-  text-decoration: none;
-}
+
 .btn{
   background: #000;
   color: white;
@@ -318,63 +289,5 @@ a {
     transform: scale(1.3);
   }
 }
-.pie_pagina{
-  margin-top: 0.4%;
-}
 
-/*Pie de pagina*/
-.pie_pagina{
-  background: url(../images/Background/footer.png);
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 530px;
-}
-.contFot{
-  margin-left: 10%;
-}
-.pie_pagiana{
-  background: url(../images/Background/backgroundfooter.png);
-  background-size: cover;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-}
 
-/*iconos*/
-.icon img {
-  margin-top: 55px;
-  width: 50px;
-  margin-left: 25px;
-  margin-bottom: 40px;
-}
-/*@awicha*/
-.unic{
-  float: right;
-  width: 300px;
-  height: 200px;
-  margin-right: 12%;
-  padding-top: 10%;
-}
-.contFot2 img{
-  width: 500px;
-  height: 250px;
-  margin-left: 50%;
-  margin-top: -80%;
-}
-/*hashtag*/
-.contFot h1{
-  color: white;
-  padding-top: 8%;
-  font-family:"bebas";
-  letter-spacing: 8px;
-}
-
-/*Footer*/
-
-.fotr{
-  color: white;
-  font-family:"bebas";
-  letter-spacing: 5px;
-  margin-left: 400px;
-  margin-top:-100px;
-}
