@@ -12,6 +12,7 @@
 	font-weight: normal;
 }
 html, body{
+	cursor: url(../images/huella.png), auto;
 	margin: 0;
 	border:0;
 	padding: 0;
