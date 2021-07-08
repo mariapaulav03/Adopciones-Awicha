@@ -154,3 +154,50 @@ html, body{
   color: beige;
   text-align: center;
 }
+
+/*Testimonioa*/
+.container4 {
+  background: url(../images/Background/background5.png);
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.tit_tes h1{
+  font-family:"gangalin";
+  font-size: 60px;
+  color: beige;
+  text-align: center;
+  margin-left: 60px;
+}
+.foto_Tes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.foto_Tes img{
+  margin-top: 100px;
+  margin-left: 140px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  justify-content: center;
+}
+.nom_tes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.nom_tes h2{
+  font-family:"bebas";
+  font-size: 40px;
+  color: beige;
+  text-align: center;
+  margin-top: 20px;
+}
+.info_Tes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.info_Tes img{
+  width: 100px;
+  height: 50px;
+  margin-left: 150px;
+}
