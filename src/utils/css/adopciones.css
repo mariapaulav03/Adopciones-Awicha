@@ -16,6 +16,7 @@ html, body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: none;
 }
 
 /*primer ciuadro cuerpo*/
@@ -41,61 +42,83 @@ html, body{
 }
 
 /*Container1*/
-  /*Letra e imagen1*/
+/*Letra e imagen1*/
 .caja1{
   background: url(../images/Background/background-adop1.png);
   background-size: cover;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .info{
   margin-top: 10%;
 }
-.info h3{
+.info h1{
   font-family:"gangalin";
-  font-size: 30px;
+  font-size: 100px;
   color: white;
   text-align: center;
 }
-.info li{
+.info h2{
   font-family:"bebas";
-    font-size: 25px;
+    font-size: 40px;
     color: #616060;
     text-align: center;
     letter-spacing: 2px;
+    text-align: center;
+    margin-top:100px;
+    margin-left: 150px;
+}
+.info a{
+  text-decoration: none;
+  font-family:"bebas";
+    font-size: 30px;
+    color: #6cb9ec;
+    margin-left: 150px;
 }
 .img_Info img{
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
 }
 
 /*Imagenes y letras2*/
 .caja2{
   background: url(../images/Background/background-adop2.png);
   background-size: cover;
-  padding: 30px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .info2{
   margin-top: 10%;
 }
-.info2 h3{
+.info2 h1{
   font-family:"gangalin";
-  font-size: 30px;
+  font-size: 100px;
   color: white;
   text-align: center;
+  margin-right: 100px;
 }
-.info2 li{
-  font-family:"bebas";
-    font-size: 25px;
+.info2 h2{
+    font-family:"bebas";
+    font-size: 40px;
     color: #616060;
     text-align: center;
     letter-spacing: 2px;
+    text-align: center;
+    margin-top:100px;
+    margin-right: 200px;
+}
+.info2 a{
+  text-decoration: none;
+  font-family:"bebas";
+    font-size: 30px;
+    color: #6cb9ec;
+    margin-right: 50px;
 }
 .img_Info2 img{
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
 }
 
 
@@ -107,13 +130,15 @@ html, body{
 /*transiciones del texto*/
 .container figure{
   position: relative;
-  height: 350px;
-  width: 300px;
   overflow: hidden;
+  width: 400px;
+  height: 300px;
   box-shadow: 0px 15px 25px rgba(0,0,0,.50);
   cursor: pointer;
+  margin-top: 150px;
+  margin-left: 200px;
 }
-.container  figure img{
+ figure img{
   height: 100%;
   width: 100%;
   transition: all 500ms ease-out;
@@ -127,8 +152,19 @@ html, body{
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
-  text-align: center;
 }
+.container  p{
+  color:#fff;
+  font-weight: 400;
+  transition: all 500ms ease-out;
+  line-height: 1.2;
+  font-family:"bebas";
+  font-size: 18px;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+}
+
+
 .container figure:hover > .capa{
   opacity: 1;
   visibility: visible;
@@ -140,12 +176,7 @@ html, body{
 .container  figure:hover > img{
   transform: scale(1.3);
 }
-.container  p{
-  color:#fff;
-  font-weight: 400;
-  transition: all 500ms ease-out;
-  line-height: 1.2;
-}
+
 .form{
   background-color:  #DBAD14FF;
   margin-top: -6%;
@@ -156,9 +187,7 @@ button{
   margin-left: 41%;
   margin-top: 7%;
 }
-a {
-  text-decoration: none;
-}
+
 .btn{
   background: #000;
   color: white;
