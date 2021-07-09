@@ -1,0 +1,51 @@
+/*Fuentes*/
+@font-face{
+    font-family:"gangalin";
+    src:url("../fonts/Gagalin-Regular.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family:"bebas";
+    src:url("../fonts/BebasNeue-Regular.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#productosdestacados li{
+    list-style: none
+    font-family:"bebas";
+    letter-spacing: 3px;
+}
+#productosdestacados a{
+    color: #666666;
+    text-decoration: none;
+    font-family:"bebas";
+}
+#productosdestacados h1{
+    font-family:"bebas";
+    letter-spacing: 2px;
+}
+.price{
+    color: #F0A83E;
+}
+.listapata{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;  
+}
+.listapata a{
+    padding:20px;
+}
+
+.imagenesdestacadas{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.imagenesdestacadas p{
+    font-family:"bebas";
+     letter-spacing: 2px;
+    
+}

@@ -39,9 +39,11 @@ html, body{
   font-family:"bebas";
     font-size: 25px;
     color: #616060;
-    text-align: center;
+    text-align: justify;
     margin-top: 60px;
     letter-spacing: 2px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 /*Container1*/
