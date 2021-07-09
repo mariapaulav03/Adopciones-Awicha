@@ -131,7 +131,17 @@ html, body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+<<<<<<< HEAD
 .funda img{
+=======
+.brenda img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-left: 150px;
+}
+.ana img{
+>>>>>>> 34615e4079e5dc9d43f7295a53fd05cd15b820ab
   width: 200px;
   height: 200px;
   border-radius: 100px;
@@ -144,8 +154,18 @@ html, body{
   margin-top: 30px;
   color: beige;
   text-align: justify;
+<<<<<<< HEAD
   margin-left: 60px;
   margin-right: 60px;
+=======
+}
+.ana h2{
+  font-family: "bebas";
+  font-size: 20px;
+  margin-top: 30px;
+  color: beige;
+  text-align: justify;
+>>>>>>> 34615e4079e5dc9d43f7295a53fd05cd15b820ab
 }
 
 /*Testimonioa*/

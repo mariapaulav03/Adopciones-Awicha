@@ -31,6 +31,7 @@ html, body{
   text-align: center;
   margin-top: 80px;
 }
+<<<<<<< HEAD
 .principal_Dona h2{
   font-size: 25px;
   font-family:"bebas";
@@ -90,4 +91,80 @@ html, body{
     width: 300px;
     height: 100px;
   }
+=======
+.principal_Dona p{
+  font-size: 30px;
+  font-family:"bebas";
+  color:#616060;
+  text-align: justify;
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+/*DAVIVIENDA*/
+.front{
+  background: url(../images/Background/background4.png);
+  background-size: cover;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img_Davi{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.img_Davi img{
+  width: 300px;
+  height: 200px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.leter_Davi h1{
+  font-family: "gangalin";
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 150px;
+}
+.leter_Davi p{
+  font-size: 20px;
+  font-family:"bebas";
+  color:#616060;
+  text-align: justify;
+  margin-right: 150px;
+}
+/*NEQUI*/
+.front2{
+  background: url(../images/Background/background\ dona1.png);
+  background-size: cover;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img_Nequi{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.img_Nequi img{
+  width: 300px;
+  height: 200px;
+  margin-top: 80px;
+}
+.leter_Nequi h1{
+  font-family: "gangalin";
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 150px;
+}
+.leter_Nequi p{
+  font-size: 20px;
+  font-family:"bebas";
+  color:#616060;
+  text-align: justify;
+  margin-left: 150px;
+}
+>>>>>>> 34615e4079e5dc9d43f7295a53fd05cd15b820ab
 
