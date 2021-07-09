@@ -19,128 +19,90 @@ html, body{
 
 
 /*primer ciuadro cuerpo*/
-.principal img{
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 450px;
+.principal_Dona{
+  background: url(../images/Background/background3.png);
+  background-size: cover;
+  padding: 30px;
 }
- .h1{
+ .principal_Dona h1{
   font-family: "gangalin";
   color: white;
-  font-size: 33px;
-  margin-left: 40%;
-  margin-bottom: 7.7%;
-  margin-right: 40%;
-  margin-top: -38%;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 80px;
 }
-.principal p{
-  font-size: 25px;
-  margin-left: 25%;
-  margin-right: 20%;
+.principal_Dona p{
+  font-size: 30px;
+  font-family:"bebas";
+  color:#616060;
+  text-align: justify;
+  margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
-.dona .font{
-  margin-top: 9.9%;
-  width: 49.8%;
-  height: 350px; 
-} 
-.front img{
-  width: 220px;
-  margin-top: -35%;
-  margin-bottom: 35%;
-  display: block;
+/*DAVIVIENDA*/
+.front{
+  background: url(../images/Background/background4.png);
+  background-size: cover;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.front2 img{
-  width: 220px;
-  margin-top: -35%;
-  margin-bottom: 35%;
-  display: block;
+.img_Davi{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
+.img_Davi img{
+  width: 300px;
+  height: 200px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.leter_Davi h1{
+  font-family: "gangalin";
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 150px;
+}
+.leter_Davi p{
+  font-size: 20px;
+  font-family:"bebas";
+  color:#616060;
+  text-align: justify;
+  margin-right: 150px;
+}
+/*NEQUI*/
 .front2{
-margin-left: 76%;
-margin-top: -66%;
+  background: url(../images/Background/background\ dona1.png);
+  background-size: cover;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.title{
-  font-family:"bebas";
-  padding: 25px;
-  margin-top: -30%;
-  margin-left: 20%;
-  font-size: 26px;
-  color: white;
+.img_Nequi{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
-.title1{
-  font-family:"bebas";
-  padding: 25px;
-  margin-top: -20%;
-  margin-left: 59%;
-  font-size: 26px;
-  color: white;
+.img_Nequi img{
+  width: 300px;
+  height: 200px;
+  margin-top: 80px;
 }
-.adopt2{
-  margin-top: 5.5%;
-}
-.principal0{
-  margin-bottom: 13%;
-}
-.principal0 img{
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 450px;
-}
- .h{
+.leter_Nequi h1{
   font-family: "gangalin";
   color: white;
-  font-size: 33px;
-  margin-left: 34%;
-  margin-bottom: 10%;
-  margin-top: -38%;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 150px;
 }
-.principal0 p{
-  font-size: 25px;
-  margin-left: 25%;
-  margin-right: 20%;
+.leter_Nequi p{
+  font-size: 20px;
+  font-family:"bebas";
+  color:#616060;
+  text-align: justify;
+  margin-left: 150px;
 }
 
-.principal1{
-  margin-bottom: 13%;
-  margin-top: -2.7%;
-}
-.principal1 img{
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 450px;
-}
-.h2{
-  font-family: "gangalin";
-  color: white;
-  font-size: 33px;
-  margin-left: 38%;
-  margin-bottom: 10%;
-  margin-top: -38%;
-}
-.principal1 p{
-  font-size: 25px;
-  margin-left: 25%;
-  margin-right: 20%;
-}
-
-.principal2{
-  margin-bottom: 13%;
-}
-.principal2 img{
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 450px;
-}
- .h3{
-  font-family: "gangalin";
-  color: white;
-  font-size: 33px;
-  margin-left: 31%;
-  margin-bottom: 10%;
-  margin-top: -38%;
-}
-.principal2 p{
-  font-size: 25px;
-  margin-left: 25%;
-  margin-right: 20%;
-}
