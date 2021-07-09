@@ -31,78 +31,63 @@ html, body{
   text-align: center;
   margin-top: 80px;
 }
-.principal_Dona p{
-  font-size: 30px;
+.principal_Dona h2{
+  font-size: 25px;
   font-family:"bebas";
   color:#616060;
   text-align: justify;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-right: 200px;
   margin-left: 200px;
 }
-/*DAVIVIENDA*/
-.front{
-  background: url(../images/Background/background4.png);
-  background-size: cover;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.img_Davi{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-}
-.img_Davi img{
-  width: 300px;
-  height: 200px;
-  margin-top: 80px;
-  margin-left: 100px;
-}
-.leter_Davi h1{
+/*Card*/
+.card{
+  border: none;
+  background-color: transparent;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 27px;
+  margin-right: 25px;
+  }
+  .card-title{
+    font-size: 25px;
+    font-family: "bebas";
+  text-align: center;
+  color:#167397;
+  }
+  .card-text{
+    font-family: "bebas";
+  text-align: justify;
+  letter-spacing: 3px;
+  }
+  .card img{
+  width: 64px;
+  margin: auto;
+  }
+  /*FORMAS DE AYUDAR*/
+  .como_Ayu{
+    background: rgb(250, 229, 135);
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .como_Ayu h1{
+    margin-top: 25px;
   font-family: "gangalin";
   color: white;
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
-  margin-top: 60px;
-  margin-right: 150px;
-}
-.leter_Davi p{
-  font-size: 20px;
+  }
+  .como_Ayu h2{
+  font-size: 25px;
   font-family:"bebas";
   color:#616060;
   text-align: justify;
-  margin-right: 150px;
-}
-/*NEQUI*/
-.front2{
-  background: url(../images/Background/background\ dona1.png);
-  background-size: cover;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.img_Nequi{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-}
-.img_Nequi img{
-  width: 300px;
-  height: 200px;
-  margin-top: 80px;
-}
-.leter_Nequi h1{
-  font-family: "gangalin";
-  color: white;
-  font-size: 80px;
-  text-align: center;
-  margin-top: 60px;
-  margin-left: 150px;
-}
-.leter_Nequi p{
-  font-size: 20px;
-  font-family:"bebas";
-  color:#616060;
-  text-align: justify;
-  margin-left: 150px;
-}
+  margin-top: 25px;
+  }
+  .como_Ayu img{
+    width: 300px;
+    height: 100px;
+  }
 
